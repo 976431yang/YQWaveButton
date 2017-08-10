@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9511BC2E1F3C3632003E3E4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9511BC2D1F3C3632003E3E4C /* main.m */; };
+		9511BC311F3C3632003E3E4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9511BC301F3C3632003E3E4C /* AppDelegate.m */; };
+		9511BC341F3C3632003E3E4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9511BC331F3C3632003E3E4C /* ViewController.m */; };
+		9511BC371F3C3632003E3E4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9511BC351F3C3632003E3E4C /* Main.storyboard */; };
+		9511BC391F3C3632003E3E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9511BC381F3C3632003E3E4C /* Assets.xcassets */; };
+		9511BC3C1F3C3632003E3E4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9511BC3A1F3C3632003E3E4C /* LaunchScreen.storyboard */; };
+		9511BC471F3C3632003E3E4C /* YQWaveButtonDEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9511BC461F3C3632003E3E4C /* YQWaveButtonDEMOTests.m */; };
+		9511BC521F3C3632003E3E4C /* YQWaveButtonDEMOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9511BC511F3C3632003E3E4C /* YQWaveButtonDEMOUITests.m */; };
+		9511BC621F3C363B003E3E4C /* YQWaveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9511BC611F3C363B003E3E4C /* YQWaveButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9511BC431F3C3632003E3E4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9511BC211F3C3632003E3E4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9511BC281F3C3632003E3E4C;
+			remoteInfo = YQWaveButtonDEMO;
+		};
+		9511BC4E1F3C3632003E3E4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9511BC211F3C3632003E3E4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9511BC281F3C3632003E3E4C;
+			remoteInfo = YQWaveButtonDEMO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9511BC291F3C3632003E3E4C /* YQWaveButtonDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQWaveButtonDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9511BC2D1F3C3632003E3E4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9511BC2F1F3C3632003E3E4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9511BC301F3C3632003E3E4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9511BC321F3C3632003E3E4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9511BC331F3C3632003E3E4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9511BC361F3C3632003E3E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9511BC381F3C3632003E3E4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9511BC3B1F3C3632003E3E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9511BC3D1F3C3632003E3E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9511BC421F3C3632003E3E4C /* YQWaveButtonDEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQWaveButtonDEMOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9511BC461F3C3632003E3E4C /* YQWaveButtonDEMOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQWaveButtonDEMOTests.m; sourceTree = "<group>"; };
+		9511BC481F3C3632003E3E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9511BC4D1F3C3632003E3E4C /* YQWaveButtonDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQWaveButtonDEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9511BC511F3C3632003E3E4C /* YQWaveButtonDEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQWaveButtonDEMOUITests.m; sourceTree = "<group>"; };
+		9511BC531F3C3632003E3E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9511BC601F3C363B003E3E4C /* YQWaveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQWaveButton.h; sourceTree = "<group>"; };
+		9511BC611F3C363B003E3E4C /* YQWaveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQWaveButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9511BC261F3C3632003E3E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9511BC3F1F3C3632003E3E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9511BC4A1F3C3632003E3E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9511BC201F3C3632003E3E4C = {
+			isa = PBXGroup;
+			children = (
+				9511BC2B1F3C3632003E3E4C /* YQWaveButtonDEMO */,
+				9511BC451F3C3632003E3E4C /* YQWaveButtonDEMOTests */,
+				9511BC501F3C3632003E3E4C /* YQWaveButtonDEMOUITests */,
+				9511BC2A1F3C3632003E3E4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9511BC2A1F3C3632003E3E4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9511BC291F3C3632003E3E4C /* YQWaveButtonDEMO.app */,
+				9511BC421F3C3632003E3E4C /* YQWaveButtonDEMOTests.xctest */,
+				9511BC4D1F3C3632003E3E4C /* YQWaveButtonDEMOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9511BC2B1F3C3632003E3E4C /* YQWaveButtonDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				9511BC5F1F3C363B003E3E4C /* YQWaveButton */,
+				9511BC2F1F3C3632003E3E4C /* AppDelegate.h */,
+				9511BC301F3C3632003E3E4C /* AppDelegate.m */,
+				9511BC321F3C3632003E3E4C /* ViewController.h */,
+				9511BC331F3C3632003E3E4C /* ViewController.m */,
+				9511BC351F3C3632003E3E4C /* Main.storyboard */,
+				9511BC381F3C3632003E3E4C /* Assets.xcassets */,
+				9511BC3A1F3C3632003E3E4C /* LaunchScreen.storyboard */,
+				9511BC3D1F3C3632003E3E4C /* Info.plist */,
+				9511BC2C1F3C3632003E3E4C /* Supporting Files */,
+			);
+			path = YQWaveButtonDEMO;
+			sourceTree = "<group>";
+		};
+		9511BC2C1F3C3632003E3E4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9511BC2D1F3C3632003E3E4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9511BC451F3C3632003E3E4C /* YQWaveButtonDEMOTests */ = {
+			isa = PBXGroup;
+			children = (
+				9511BC461F3C3632003E3E4C /* YQWaveButtonDEMOTests.m */,
+				9511BC481F3C3632003E3E4C /* Info.plist */,
+			);
+			path = YQWaveButtonDEMOTests;
+			sourceTree = "<group>";
+		};
+		9511BC501F3C3632003E3E4C /* YQWaveButtonDEMOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9511BC511F3C3632003E3E4C /* YQWaveButtonDEMOUITests.m */,
+				9511BC531F3C3632003E3E4C /* Info.plist */,
+			);
+			path = YQWaveButtonDEMOUITests;
+			sourceTree = "<group>";
+		};
+		9511BC5F1F3C363B003E3E4C /* YQWaveButton */ = {
+			isa = PBXGroup;
+			children = (
+				9511BC601F3C363B003E3E4C /* YQWaveButton.h */,
+				9511BC611F3C363B003E3E4C /* YQWaveButton.m */,
+			);
+			path = YQWaveButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9511BC281F3C3632003E3E4C /* YQWaveButtonDEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9511BC561F3C3632003E3E4C /* Build configuration list for PBXNativeTarget "YQWaveButtonDEMO" */;
+			buildPhases = (
+				9511BC251F3C3632003E3E4C /* Sources */,
+				9511BC261F3C3632003E3E4C /* Frameworks */,
+				9511BC271F3C3632003E3E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQWaveButtonDEMO;
+			productName = YQWaveButtonDEMO;
+			productReference = 9511BC291F3C3632003E3E4C /* YQWaveButtonDEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9511BC411F3C3632003E3E4C /* YQWaveButtonDEMOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9511BC591F3C3632003E3E4C /* Build configuration list for PBXNativeTarget "YQWaveButtonDEMOTests" */;
+			buildPhases = (
+				9511BC3E1F3C3632003E3E4C /* Sources */,
+				9511BC3F1F3C3632003E3E4C /* Frameworks */,
+				9511BC401F3C3632003E3E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9511BC441F3C3632003E3E4C /* PBXTargetDependency */,
+			);
+			name = YQWaveButtonDEMOTests;
+			productName = YQWaveButtonDEMOTests;
+			productReference = 9511BC421F3C3632003E3E4C /* YQWaveButtonDEMOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9511BC4C1F3C3632003E3E4C /* YQWaveButtonDEMOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9511BC5C1F3C3632003E3E4C /* Build configuration list for PBXNativeTarget "YQWaveButtonDEMOUITests" */;
+			buildPhases = (
+				9511BC491F3C3632003E3E4C /* Sources */,
+				9511BC4A1F3C3632003E3E4C /* Frameworks */,
+				9511BC4B1F3C3632003E3E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9511BC4F1F3C3632003E3E4C /* PBXTargetDependency */,
+			);
+			name = YQWaveButtonDEMOUITests;
+			productName = YQWaveButtonDEMOUITests;
+			productReference = 9511BC4D1F3C3632003E3E4C /* YQWaveButtonDEMOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9511BC211F3C3632003E3E4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = FreakyYang;
+				TargetAttributes = {
+					9511BC281F3C3632003E3E4C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CKAC5QB95T;
+						ProvisioningStyle = Automatic;
+					};
+					9511BC411F3C3632003E3E4C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CKAC5QB95T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9511BC281F3C3632003E3E4C;
+					};
+					9511BC4C1F3C3632003E3E4C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CKAC5QB95T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9511BC281F3C3632003E3E4C;
+					};
+				};
+			};
+			buildConfigurationList = 9511BC241F3C3632003E3E4C /* Build configuration list for PBXProject "YQWaveButtonDEMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9511BC201F3C3632003E3E4C;
+			productRefGroup = 9511BC2A1F3C3632003E3E4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9511BC281F3C3632003E3E4C /* YQWaveButtonDEMO */,
+				9511BC411F3C3632003E3E4C /* YQWaveButtonDEMOTests */,
+				9511BC4C1F3C3632003E3E4C /* YQWaveButtonDEMOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9511BC271F3C3632003E3E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9511BC3C1F3C3632003E3E4C /* LaunchScreen.storyboard in Resources */,
+				9511BC391F3C3632003E3E4C /* Assets.xcassets in Resources */,
+				9511BC371F3C3632003E3E4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9511BC401F3C3632003E3E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9511BC4B1F3C3632003E3E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9511BC251F3C3632003E3E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9511BC341F3C3632003E3E4C /* ViewController.m in Sources */,
+				9511BC311F3C3632003E3E4C /* AppDelegate.m in Sources */,
+				9511BC621F3C363B003E3E4C /* YQWaveButton.m in Sources */,
+				9511BC2E1F3C3632003E3E4C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9511BC3E1F3C3632003E3E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9511BC471F3C3632003E3E4C /* YQWaveButtonDEMOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9511BC491F3C3632003E3E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9511BC521F3C3632003E3E4C /* YQWaveButtonDEMOUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9511BC441F3C3632003E3E4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9511BC281F3C3632003E3E4C /* YQWaveButtonDEMO */;
+			targetProxy = 9511BC431F3C3632003E3E4C /* PBXContainerItemProxy */;
+		};
+		9511BC4F1F3C3632003E3E4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9511BC281F3C3632003E3E4C /* YQWaveButtonDEMO */;
+			targetProxy = 9511BC4E1F3C3632003E3E4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9511BC351F3C3632003E3E4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9511BC361F3C3632003E3E4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9511BC3A1F3C3632003E3E4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9511BC3B1F3C3632003E3E4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9511BC541F3C3632003E3E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9511BC551F3C3632003E3E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9511BC571F3C3632003E3E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CKAC5QB95T;
+				INFOPLIST_FILE = YQWaveButtonDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freakyyang..YQWaveButtonDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9511BC581F3C3632003E3E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CKAC5QB95T;
+				INFOPLIST_FILE = YQWaveButtonDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freakyyang..YQWaveButtonDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9511BC5A1F3C3632003E3E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CKAC5QB95T;
+				INFOPLIST_FILE = YQWaveButtonDEMOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freakyyang..YQWaveButtonDEMOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQWaveButtonDEMO.app/YQWaveButtonDEMO";
+			};
+			name = Debug;
+		};
+		9511BC5B1F3C3632003E3E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CKAC5QB95T;
+				INFOPLIST_FILE = YQWaveButtonDEMOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freakyyang..YQWaveButtonDEMOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQWaveButtonDEMO.app/YQWaveButtonDEMO";
+			};
+			name = Release;
+		};
+		9511BC5D1F3C3632003E3E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CKAC5QB95T;
+				INFOPLIST_FILE = YQWaveButtonDEMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freakyyang..YQWaveButtonDEMOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQWaveButtonDEMO;
+			};
+			name = Debug;
+		};
+		9511BC5E1F3C3632003E3E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CKAC5QB95T;
+				INFOPLIST_FILE = YQWaveButtonDEMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freakyyang..YQWaveButtonDEMOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQWaveButtonDEMO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9511BC241F3C3632003E3E4C /* Build configuration list for PBXProject "YQWaveButtonDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9511BC541F3C3632003E3E4C /* Debug */,
+				9511BC551F3C3632003E3E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9511BC561F3C3632003E3E4C /* Build configuration list for PBXNativeTarget "YQWaveButtonDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9511BC571F3C3632003E3E4C /* Debug */,
+				9511BC581F3C3632003E3E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9511BC591F3C3632003E3E4C /* Build configuration list for PBXNativeTarget "YQWaveButtonDEMOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9511BC5A1F3C3632003E3E4C /* Debug */,
+				9511BC5B1F3C3632003E3E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9511BC5C1F3C3632003E3E4C /* Build configuration list for PBXNativeTarget "YQWaveButtonDEMOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9511BC5D1F3C3632003E3E4C /* Debug */,
+				9511BC5E1F3C3632003E3E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9511BC211F3C3632003E3E4C /* Project object */;
+}

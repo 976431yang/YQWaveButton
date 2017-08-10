@@ -1,18 +1,21 @@
-# YQWaveBUtton
+//
+//  ViewController.m
+//  YQWaveButtonDEMO
+//
+//  Created by problemchild on 2017/8/10.
+//  Copyright © 2017年 FreakyYang. All rights reserved.
+//
 
-#### 微博：畸形滴小男孩
-##### 水波纹按钮
+#import "YQWaveButton.h"
 
+#import "ViewController.h"
 
-###效果预览：</br>
+@interface ViewController ()
 
--直接拖到工程中使用
-```objective-c
-#import "YQWaveBUtton.h"
-```
-### Example Code:
-#### 最简单使用(默认效果)：
-```objective-c
+@end
+
+@implementation ViewController
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -22,11 +25,15 @@
     btn.backgroundColor = [UIColor colorWithRed:0.991 green:0.584 blue:0.603 alpha:1.000];
     [btn setTitle:@"按钮" forState:UIControlStateNormal];
     [self.view addSubview:btn];
-
+    
+    
     //自定义 高亮颜色
     btn.highlightedColor = [UIColor redColor];
     
     //自定义 动画时间
     //btn.AnimationDuration = 3;
+    
 }
-```
+
+
+@end
