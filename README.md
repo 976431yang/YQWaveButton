@@ -1,14 +1,15 @@
-# YQWaveBUtton
+# YQWaveButton
 
 #### 微博：畸形滴小男孩
 ##### 水波纹按钮
 
 
-###效果预览：</br>
+### 效果预览：</br>
+ ![image](https://github.com/976431yang/YQWaveButton/blob/master/screenshot.gif)
 
 -直接拖到工程中使用
 ```objective-c
-#import "YQWaveBUtton.h"
+#import "YQWaveButton.h"
 ```
 ### Example Code:
 #### 最简单使用(默认效果)：
