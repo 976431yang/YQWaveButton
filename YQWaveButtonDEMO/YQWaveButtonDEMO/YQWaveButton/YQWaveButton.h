@@ -10,9 +10,9 @@
 
 @interface YQWaveButton : UIButton
 
-//动画时间，默认为1秒
-@property (nonatomic,assign) NSTimeInterval AnimationDuration;
-//动画颜色
+// 动画时间，默认为1秒
+@property (nonatomic,assign) NSTimeInterval animationDuration;
+// 动画颜色
 @property (nonatomic,strong) UIColor        *highlightedColor;
 
 @end

@@ -21,7 +21,7 @@
     
     //跟UIButton一样的使用
     YQWaveButton *btn = [YQWaveButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = CGRectMake(50, 40, 300, 100);
+    btn.frame = CGRectMake(50, 100, 300, 100);
     btn.backgroundColor = [UIColor colorWithRed:0.991 green:0.584 blue:0.603 alpha:1.000];
     [btn setTitle:@"按钮" forState:UIControlStateNormal];
     [self.view addSubview:btn];

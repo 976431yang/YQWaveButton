@@ -23,22 +23,22 @@
 
 @interface YQWaveButton ()
 
-@property(nonatomic,assign)int loopCount;
+@property (nonatomic, assign) int loopCount;
 
-@property(nonatomic,strong)NSMutableDictionary *circles;
+@property (nonatomic, strong) NSMutableDictionary *circles;
 
-@property(nonatomic,assign)int circleFlag;
+@property (nonatomic, assign) int circleFlag;
 
 @end
 
 @implementation YQWaveButton
 
--(void)setAnimationDuration:(NSTimeInterval)AnimationDuration{
-    _AnimationDuration = AnimationDuration;
-    self.loopCount = self.AnimationDuration / 0.02;
+- (void)setAnimationDuration:(NSTimeInterval)AnimationDuration {
+    _animationDuration = AnimationDuration;
+    self.loopCount = self.animationDuration / 0.02;
 }
 
--(void)drawRect:(CGRect)rect{
+- (void)drawRect:(CGRect)rect {
     
     CGContextRef context = UIGraphicsGetCurrentContext();
     
@@ -59,13 +59,13 @@
     }
 }
 
--(instancetype)initWithFrame:(CGRect)frame{
+- (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     
     self.highlightedColor = [UIColor clearColor];
     
-    self.AnimationDuration = 1;
-    self.loopCount = self.AnimationDuration / 0.02;
+    self.animationDuration = 1;
+    self.loopCount = self.animationDuration / 0.02;
     
     self.circles = [NSMutableDictionary dictionary];
     self.circleFlag = 0;
@@ -75,7 +75,7 @@
     return self;
 }
 
--(void)touchedDown:(UIButton *)btn event:(UIEvent *)event{
+- (void)touchedDown:(UIButton *)btn event:(UIEvent *)event {
     
     UITouch *touch = event.allTouches.allObjects.firstObject;
     CGPoint touchePoint = [touch locationInView:btn];
@@ -94,8 +94,8 @@
 
     NSTimer *timer = [NSTimer timerWithTimeInterval:0.01
                                              target:self
-                                           selector:@selector(TimerFunction:)
-                                           userInfo:@{@"key":key}
+                                           selector:@selector(timerFunction:)
+                                           userInfo:@{@"key": key}
                                             repeats:YES];
     
     [NSRunLoop.mainRunLoop addTimer:timer forMode:NSRunLoopCommonModes];
@@ -103,7 +103,7 @@
     self.circleFlag++;
 }
 
--(void)TimerFunction:(NSTimer *)timer{
+- (void)timerFunction:(NSTimer *)timer {
     
     [self setNeedsDisplay];
     
@@ -113,11 +113,11 @@
     
     YQButtonCircleSet *set = self.circles[key];
     
-    if(set.circleRait<=1){
+    if (set.circleRait <= 1) {
         
-        set.circleRait += (1.0/self.loopCount);
+        set.circleRait += (1.0 / self.loopCount);
         
-    }else{
+    } else {
         [self.circles removeObjectForKey:key];
         
         [timer invalidate];
